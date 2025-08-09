@@ -1,7 +1,96 @@
-#definicao {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333333;
-    line-height: 1.5;
-    margin: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8f0;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+#titulo {
+    font-size: 24px;
+    background-color: #28d344;
+    border-radius: 10px;
+    border-left: 5px solid #174b07;
+    width: 90%;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 22px;
+    color: #174b07;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+#conteudo {
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+#imagem1 {
+    width: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#tripeConteudo h4 {
+    padding: 0;
+    color: #174b07;
+}
+
+#tripeConteudo p {
+    margin-left: 12px;
+}
+
+#imagem2 {
+    width: 40px;
+    display: inline;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#informacoes {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e0f7e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type:circle;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#referencias {
+    list-style: outside;
+}
+
+a {
+    color: #117722; /* #28d344 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
