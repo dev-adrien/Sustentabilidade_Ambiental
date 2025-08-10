@@ -71,6 +71,36 @@ h2 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+#div2 {
+    margin: 10px;
+}
+
+
+#imagem4 {
+    width: 400px;
+    margin: 0px 90px;
+    display: inline;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#video1 {
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#video2 {
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
 #informacoes {
     margin-top: 30px;
     padding: 20px;
