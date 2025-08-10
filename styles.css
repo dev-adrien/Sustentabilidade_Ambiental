@@ -109,6 +109,16 @@ figcaption {
     text-indent: 30px;
 }
 
+#imagem4 {
+    max-width: 450px;
+    min-width: 300px;
+    display:inline-block;
+    margin: 20px auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 #div1 {
     display: flex;
     align-items: center;
@@ -185,4 +195,53 @@ p {
     text-align: justify;
     margin: 12px 0;
     text-indent: 30px;
+}
+
+/*Adição de medias queries, teste
+objetivo: tornar as imagens responsivas em aparelhos de diferentes tamanhos.*/
+@media (max-width: 600px) {
+    #imagem4 {
+        max-width: 100%; /* Ocupa toda a largura disponível */
+        min-width: 0; /* Remove o mínimo fixo */
+        margin: 10px auto; /* Reduz margens */
+        display: block; /* Garante que fique centralizado como bloco */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    #imagem4 {
+        max-width: 80%; /* Ajusta para 80% da largura da tela */
+        margin: 15px auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    #imagem4 {
+        max-width: 450px; /* Mantém o valor original */
+        min-width: 300px;
+    }
+}
+
+/*para a imagem 3 */
+@media (max-width: 600px) {
+    #imagem3 {
+        max-width: 100%; /* Ocupa toda a largura disponível */
+        min-width: 0; /* Remove o mínimo fixo */
+        margin: 10px auto; /* Reduz margens */
+        display: block; /* Garante que fique centralizado como bloco */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    #imagem3 {
+        max-width: 80%; /* Ajusta para 80% da largura da tela */
+        margin: 15px auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    #imagem3 {
+        max-width: 450px; /* Mantém o valor original */
+        min-width: 300px;
+    }
 }
